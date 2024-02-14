@@ -17,11 +17,17 @@
 }
 
 body {
-  background: url("./assets/background-gif.gif") no-repeat;
+  /* background: url("./assets/background-gif.gif") no-repeat; */
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.background-image-punk {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
 }
