@@ -1,0 +1,17 @@
+.timer-container {
+  border: 2px solid #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  position: relative;
+}
+.timer-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  filter: blur(20px);
+  opacity: 0.6;
+}
